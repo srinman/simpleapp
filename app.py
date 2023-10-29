@@ -11,7 +11,7 @@ CORS(app)
 @app.route('/')
 @app.route('/index.html')
 def welcome_page():
-    return render_template('indexv1.html')
+    return render_template('indexv1hacked.html')
 
 
 if __name__ == '__main__':
